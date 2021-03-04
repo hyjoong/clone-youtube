@@ -13,7 +13,7 @@ function App() {
       redirect: "follow",
     };
 
-    fetch(
+    fetch(  // 유행하는 비디오들 받아옴
       "https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=AIzaSyDzEQMe6mefGQwA-dCl6SPWUFWOqfHiE7o",
       requestOptions
     )
